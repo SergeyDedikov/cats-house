@@ -4,7 +4,7 @@ import { Routes, Route, useLocation, useNavigate } from "react-router-dom";
 import "./App.css";
 import api from "../utils/api";
 import CatsList from "./CatsList";
-import NavBar from "./NavBar";
+import Header from "./Header";
 
 export default function App() {
   const [onLoad, setOnLoad] = useState(false);
@@ -102,9 +102,7 @@ export default function App() {
 
   return onLoad ? (
     <>
-      <header>
-        <NavBar />
-      </header>
+      <Header />
       <main>
         <Routes>
           <Route
