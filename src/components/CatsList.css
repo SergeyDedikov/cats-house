@@ -1,0 +1,29 @@
+.cats__list {
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+  padding: var(--padding-main);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: calc(100vw / 30);
+  padding-top: calc(52px + var(--height-menu));
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cats__list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cats__list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cats__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
