@@ -1,0 +1,18 @@
+.header {
+  width: 100%;
+  z-index: 999;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: var(--height-menu);
+  padding: var(--padding-main);
+  background-color: var(--background-color-2);
+  border-bottom: 1px solid var(--background-color-1);
+  box-sizing: border-box;
+  box-shadow: var(--box-shadow-nav);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}

@@ -1,16 +1,13 @@
-.navigation {
-  z-index: 999;
-  position: fixed;
-  left: 0;
-  top: 0;
-  height: var(--height-menu);
-  padding: var(--padding-main);
-  background-color: var(--background-color-2);
-  box-sizing: border-box;
-  box-shadow: var(--box-shadow-nav);
+.navigation__links {
+  display: flex;
+  padding: 0;
+  margin: 0;
 }
 
 .navigation__link {
+  height: var(--height-menu);
+  display: flex;
+  align-items: center;
   padding: 24px 20px;
   color: rgba(255, 255, 255, 0.7);
 }
