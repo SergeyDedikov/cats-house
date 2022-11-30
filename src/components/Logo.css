@@ -1,5 +1,5 @@
 .logo__image {
-  width: 250px;
-  aspect-ratio: 10 / 7;
-  background: center / cover no-repeat url("../images/logo_cats.svg");
+  width: 150px;
+  aspect-ratio: 2 / 1;
+  background: center / contain no-repeat url("../images/logo_cats.svg");
 }

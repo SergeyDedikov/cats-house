@@ -17,12 +17,12 @@
     #fff 60%
   );
   --padding-main: 0 60px;
-  --height-menu: 65px;
+  --height-menu: 100px;
 }
 
 .page {
   position: relative;
-  
+
   min-height: 100vh;
   margin: 0 auto;
   font-family: "Roboto", "Arial", sans-serif;
@@ -41,13 +41,6 @@
   -webkit-text-size-adjust: 100%;
   -ms-font-feature-settings: "kern" 1;
   font-feature-settings: "kern";
-}
-
-.flex-container {
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
 }
 
 ul {

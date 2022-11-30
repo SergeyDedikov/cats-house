@@ -5,6 +5,7 @@
 }
 
 .navigation__link {
+  height: var(--height-menu);
   display: flex;
   align-items: center;
   padding: 24px 20px;
