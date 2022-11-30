@@ -34,7 +34,7 @@
   text-align: center;
   letter-spacing: 0.25px;
   color: var(--primary-color);
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color-2);
   mix-blend-mode: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
